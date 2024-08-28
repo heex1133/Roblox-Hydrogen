@@ -11,11 +11,11 @@
 		"analyze:setup": "pnpm exec shx test -f roblox.d.luau || curl -o roblox.d.luau https://raw.githubusercontent.com/JohnnyMorganz/luau-lsp/main/scripts/globalTypes.d.luau"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.8.3",
-		"@isentinel/dict-rbxts": "^1.0.1",
-		"@isentinel/dict-roblox": "^1.0.3",
-		"cspell": "^8.14.2",
-		"husky": "^9.1.5",
-		"shx": "^0.3.4"
+		"@biomejs/biome": "1.8.3",
+		"@isentinel/dict-rbxts": "1.0.1",
+		"@isentinel/dict-roblox": "1.0.3",
+		"cspell": "8.14.2",
+		"husky": "9.1.5",
+		"shx": "0.3.4"
 	}
 }
