@@ -1,18 +1,38 @@
 {
 	"name": "@rbxts/template",
-	"version": "0.0.0-ts.0",
+	"version": "1.0.0-ts.2",
 	"description": "A template to create a new package easily.",
-	"keywords": ["template", "roblox-ts", "@rbxts"],
+	"keywords": [
+		"template",
+		"roblox-ts",
+		"@rbxts"
+	],
+	"license": "MIT",
 	"main": "dist/init.lua",
 	"types": "dist/index.d.ts",
-	"files": ["dist", "!**/*.tsbuildinfo"],
+	"files": [
+		"dist",
+		"default.project.json",
+		"CHANGELOG.md",
+		"README.md",
+		"!**/*.tsbuildinfo"
+	],
 	"author": "kineticwallet",
 	"contributors": [
 		{
 			"name": "kineticwallet",
-			"url": "https://github.com/kineticwallet"
+			"url": "github:kineticwallet"
 		}
 	],
+	"readme": "github:kineticwallet/roblox-ts-packages/tree/master/packages/template/README.md",
+	"homepage": "github:kineticwallet/roblox-ts-packages/tree/master/packages/template/README.md",
+	"repository": {
+		"url": "github:kineticwallet/roblox-ts-packages/tree/master/packages/template"
+	},
+	"bugs": "github:kineticwallet/roblox-ts-packages/issues",
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"build": "pnpm exec rbxtsc --verbose"
 	},
