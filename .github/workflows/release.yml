@@ -1,0 +1,25 @@
+name: Release Packages
+
+on:
+  push:
+    branches:
+      - "master"
+    paths:
+      - "packages/*/package.json"
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        package_name:
+          - "data-store-service-mock"
+          - "documentservice"
+          - "lemonsignal"
+          - "lemonsignal-plus"
+          - "spawn"
+      fail-fast: false
+    steps:
+      - name: Checkout repository.
+        uses: actions/checkout@v4.1.7
