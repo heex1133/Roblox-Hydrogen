@@ -13,6 +13,9 @@
 			"url": "https://github.com/kineticwallet"
 		}
 	],
+	"scripts": {
+		"build": "pnpm exec rbxtsc --verbose"
+	},
 	"devDependencies": {
 		"@rbxts/compiler-types": "2.3.0-types.1",
 		"@rbxts/types": "^1.0.802",
