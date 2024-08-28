@@ -17,7 +17,7 @@
 		"build": "pnpm exec rbxtsc --verbose"
 	},
 	"devDependencies": {
-		"@rbxts/compiler-types": "2.3.0-types.1",
+		"@rbxts/compiler-types": "2.3.0-types.2",
 		"@rbxts/types": "1.0.802",
 		"roblox-ts": "2.3.0-dev-576ad98"
 	}
