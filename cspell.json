@@ -4,21 +4,8 @@
 		"./node_modules/@isentinel/dict-rbxts/cspell-ext.json",
 		"./node_modules/@isentinel/dict-roblox/cspell-ext.json"
 	],
-	"ignorePaths": [
-		"pnpm-lock.yaml",
-		".git/**",
-		".vscode/**"
-	],
-	"dictionaries": [
-		"bash",
-		"filetypes",
-		"lua",
-		"misc",
-		"node",
-		"npm",
-		"softwareTerms",
-		"typescript"
-	],
+	"ignorePaths": ["pnpm-lock.yaml", ".git/**", ".vscode/**"],
+	"dictionaries": ["bash", "filetypes", "lua", "misc", "node", "npm", "softwareTerms", "typescript"],
 	"language": "en",
 	"words": [
 		"automerge",
@@ -36,6 +23,8 @@
 		"rojo",
 		"rokit",
 		"stylua",
-		"unpublish"
+		"unpublish",
+		"softprops",
+		"Millis"
 	]
 }
